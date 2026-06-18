@@ -1,0 +1,1 @@
+Sample file used by the File Upload E2E test (the-internet /upload).

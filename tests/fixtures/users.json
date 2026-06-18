@@ -1,0 +1,26 @@
+{
+  "valid": {
+    "username": "tomsmith",
+    "password": "SuperSecretPassword!"
+  },
+  "invalid": [
+    {
+      "case": "wrong username",
+      "username": "wronguser",
+      "password": "SuperSecretPassword!",
+      "error": "Your username is invalid!"
+    },
+    {
+      "case": "wrong password",
+      "username": "tomsmith",
+      "password": "wrongpass",
+      "error": "Your password is invalid!"
+    },
+    {
+      "case": "empty credentials",
+      "username": "",
+      "password": "",
+      "error": "Your username is invalid!"
+    }
+  ]
+}

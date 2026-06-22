@@ -4,7 +4,7 @@
 
 ```mermaid
 stateDiagram-v2
-    [*] --> pending: бронь создана (резцйерв)
+    [*] --> pending: бронь создана 
     pending --> confirmed: оплата прошла
     pending --> cancelled: оплата не прошла / отмена
     confirmed --> cancelled: пользователь отменил

@@ -230,7 +230,8 @@
 - **Expected:** Пользователю показывается понятное сообщение «Файл не выбран», форма остаётся на `/upload`
 - **Actual:** Открывается страница «Internal Server Error» без объяснения для пользователя
 - **Severity:** Medium (страница не падает критично, но UX и валидация ввода отсутствуют)
-- **Screenshot:** прикрепить скрин страницы Internal Server Error при ручном прогоне
+- **Screenshot:** <img width="1467" height="502" alt="image" src="https://github.com/user-attachments/assets/b69f8078-5678-44b9-b379-4644b56dfa33" />
+
 
 > Дефект подтверждён автотестом
 > [`tests/features/upload.feature`](../tests/features/upload.feature) — сценарий
